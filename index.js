@@ -27,7 +27,7 @@ app.get("/contact",(req,res)=>{
 //File Write
 
 app.post("/file-Write",(req,res) =>{
-fs.writeFile("demo.txt","Hello World", (error)=>{
+fs.writeFile("demo.txt","hello world", (error)=>{
     if(error){
         res.end("File Write Error")
     }
